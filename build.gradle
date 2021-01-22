@@ -33,8 +33,10 @@ dependencies {
     compile('com.h2database:h2')
 
     //jsp 를 사용하기 위한 디펜던시 설정
-    compile('javax.servlet:jstl')
-    compile('org.apache.tomcat.embed:tomcat-embed-jasper')
+    //compile('javax.servlet:jstl')
+    //compile('org.apache.tomcat.embed:tomcat-embed-jasper')
 
+    //타임리프
+    compile('org.springframework.boot:spring-boot-starter-thymeleaf')
 
 }
